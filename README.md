@@ -1,0 +1,3 @@
+This is a Docker-Compose File that I use for spinnig up wordpress sites that utilizes Traefik 2.0 as a container reverse proxy. It utilizes Nginx as the web server and MariaDB as the database. Wordpress. which can be quite a laborious wielding CMS solution is sped up with PHP-FPM and this stack is rounded up with Redis Cache. So it makes for quite a super fast stack. You can read much more about it here: https://computerz.solutions/docker-compose-wordpress-nginx-et-traefik/ and remember to chmod 600 acme.json in the conf/ folder to get the letsencrypt ssl to work and make sure to input your domain details in the wp-conf in the nginx folder as per instructions. I suggest following https://github.com/Mettmett it is a great repo resource for docker-compose repos. 
+
+
